@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Light Switch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Match the bottom set of lights with the top set." />
+
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+  </head>
+
+  <body class="bg-warning text-light text-center">
+    <!-- Your HTML goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <a class="navbar-brand">Games Collection</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link bg-light rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-danger rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0 text-light" href="./WantedColor.html">Wanted Color</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-primary rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0 text-light" href="./LightSwitch.html">Light Switch <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-warning rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0" href="./Whack-A-Image.html">Whack-A-Image</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-success rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0 text-light" href="./PictureMatch.html">Picture Match</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-dark rounded ms-0 ms-lg-3 ps-3 ps-lg-2 mt-2 mt-lg-0 text-light" href="./Scores.html">Check Scores</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+     <h1 class="text-primary display-1">Light Switch</h1>
+     <div class="container">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div>
+          <h2 id="score">Score:</h2>
+          <h2 id="lives">Lives:</h2>
+        </div>
+        <div class="col-9 mx-auto mx-md-0">
+          <h2>Match the lights to this:</h2>
+          <div class="row-cols-4 row" id="match">
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+            <div class="bg-info px-3 py-3 rounded"></div>
+          </div>
+        </div>
+        <div>
+          <h2>Moves on current left:</h2>
+          <h2 id="attempts">2</h2>
+        </div>
+      </div>
+      <div class="col col-rows-2" id="buttonContainer">
+        <div class="row px-5 py-3 mt-4 row-cols-3" id="buttons">
+          
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script type="module" src="./javascripts/lights.js"></script>
+  </body>
+</html>

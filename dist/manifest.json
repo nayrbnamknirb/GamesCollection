@@ -1,0 +1,60 @@
+{
+  "LightSwitch.html": {
+    "file": "assets/LightSwitch.html.50115f1a.js",
+    "src": "LightSwitch.html",
+    "isEntry": true,
+    "imports": [
+      "_main.1e029260.js",
+      "_bootstrap.esm.42a4b9c6.js"
+    ]
+  },
+  "PictureMatch.html": {
+    "file": "assets/PictureMatch.html.808de57e.js",
+    "src": "PictureMatch.html",
+    "isEntry": true,
+    "imports": [
+      "_main.1e029260.js",
+      "_bootstrap.esm.42a4b9c6.js"
+    ]
+  },
+  "Scores.html": {
+    "file": "assets/Scores.html.5ca869f3.js",
+    "src": "Scores.html",
+    "isEntry": true,
+    "imports": [
+      "_main.1e029260.js",
+      "_bootstrap.esm.42a4b9c6.js"
+    ]
+  },
+  "WantedColor.html": {
+    "file": "assets/WantedColor.html.97776f57.js",
+    "src": "WantedColor.html",
+    "isEntry": true,
+    "imports": [
+      "_main.1e029260.js",
+      "_bootstrap.esm.42a4b9c6.js"
+    ]
+  },
+  "Whack-A-Image.html": {
+    "file": "assets/Whack-A-Image.html.bb0bb175.js",
+    "src": "Whack-A-Image.html",
+    "isEntry": true,
+    "imports": [
+      "_main.1e029260.js",
+      "_bootstrap.esm.42a4b9c6.js"
+    ]
+  },
+  "_main.1e029260.js": {
+    "file": "assets/main.1e029260.js",
+    "css": [
+      "assets/main.e3d247e2.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons.bacd70af.woff2",
+      "assets/bootstrap-icons.4d4572ef.woff"
+    ]
+  },
+  "_bootstrap.esm.42a4b9c6.js": {
+    "file": "assets/bootstrap.esm.42a4b9c6.js"
+  }
+}
